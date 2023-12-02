@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Kim</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+This is a work in progress, and is currently not done. You can come back later too see how it looks then :)
+-->
+<div class="container">
+<div class="columns flex-box-start">
+  <div class="column flex-box">
+    <div class="column-inner sidebar shadow">
+      <div class="sidebar flex-box-col">
+        <div class="photo flex-box shadow">
+          <img src="https://i.postimg.cc/y6DyX5tn/4.png" alt="">
+        </div>
+        <div class="header-content">
+          <h2 class="header-name">Skye</h2>
+          <h5 class="header-sub">Rendezvoused</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column flex-box">
+    <div class="column-inner2 terminal shadow">
+      <div class="terminal-bar flex-box">
+        <div class="dots flex-box-start2">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+          <div class="dot3"></div>
+        </div>
+        <div class="terminal-bar flex-box bar-text">profile.exe</div>
+      </div>
+      <div class="terminal-window" onclick="document.getElementById('dummyKeyboard').focus();">
+        <div class="terminal-output" id="terminalOutput">
+          <div class="terminal-line break">
+            <span class="help-msg">I was lost 'till found ya</span>
+          </div>
+        </div>
+        <div class="terminal-line">
+        <span class="success"></span> <span class="directory"></span> <span class="user-input" id="userInput"></span>
+          <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="column flex-box"style="margin-top:-450px; margin-left:350px;">
+    <div class="column-inner2 terminal shadow">
+      <div class="terminal-bar flex-box">
+        <div class="dots flex-box-start2">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+          <div class="dot3"></div>
+        </div>
+        <div class="terminal-bar flex-box bar-text">music.exe</div>
+      </div>
+      <div class="terminal-window" onclick="document.getElementById('dummyKeyboard').focus();">
+        <div class="terminal-output" id="terminalOutput">
+          <div class="terminal-line break">
+            <span class="help-msg"> <span class="code"style="color: var(--bc);">..........................</span>
+          </div>
+        </div>
+        <div class="terminal-line">
+        <span class="success"></span> <span class="directory"></span> <span class="user-input" id="userInput"></span>
+          <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<link href="//fonts.googleapis.com/css?family=Vollkorn|Poppins:500" rel="stylesheet">
+
+<link href="//fonts.googleapis.com/css?family=Vollkorn|Poppins:500" rel="stylesheet">
+
+<!----- 【 MUSIC PLAYER #08 by @glenthemes 】 ----->
+<link href="//glen-players.gitlab.io/08/setup.css" rel="stylesheet">
+<script src="//glen-players.gitlab.io/08/init.js"></script>
+       
+<div glenplayer08 style="width: 14.5%;
+  height: 15vh;
+  display: flex;margin-top:-155px; margin-left:960px;;
+  justify-content: center;">
+                                                                   
+	<img album-image src="https://64.media.tumblr.com/4d89ed9c4c2aafdaa5bf4c73bb61f203/9540ddd9bd6ce7e5-f3/s2048x3072/e00ef09c81d73c81181b26d09c82a5624d0c078b.png">
+	
+	<div music-info>
+		<div song-name> Monster </div>
+		<div artist-name> ✝ PVRIS ✝ </div>
+	</div><!--don't delete this line :)-->
+	
+	<audio src="https://rhizo.gitlab.io/m/PVRIS-Monster.mp3" volume="85%"></audio>
+</div><!--don't delete this line-->
+<!---- END MUSIC PLAYER ---->
+<!-- partial -->
+  
+</body>
+</html>
